@@ -1,0 +1,32 @@
+{
+  "name": "npm-test-module-tata",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatarodriguez11/npm-test.git"
+  },
+  "keywords": [
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Jessica tatiana <rodriguezjessicatatiana@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tatarodriguez11/npm-test/issues"
+  },
+  "homepage": "https://github.com/tatarodriguez11/npm-test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
